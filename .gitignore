@@ -1,0 +1,124 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Unit tests / coverage reports
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+.hypothesis/
+.pytest_cache/
+cover/
+
+# Environment
+venv/
+venv_py311/
+env/
+ENV/
+.env
+.venv
+env.bak/
+venv.bak/
+
+# Output files
+*.mp3
+*.wav
+*.m4a
+*.aac
+*.flac
+audio_output/
+output/
+*.txt_info.txt
+
+# Ebook files (for testing, but should be added manually if needed)
+*.epub
+*.mobi
+*.pdf
+!requirements.txt
+!README.md
+
+# Temporary files 
+.temp/
+temp/
+tmp/
+.~lock.*
+*.tmp
+*~
+
+# IDE specific files
+.idea/
+.vscode/
+*.swp
+*.swo
+.spyderproject
+.spyproject
+.ropeproject
+.project
+.pydevproject
+
+# OS specific files
+## macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon
+._*
+.DocumentRevisions-V100
+.fseventsd
+.Spotlight-V100
+.TemporaryItems
+.Trashes
+.VolumeIcon.icns
+.com.apple.timemachine.donotpresent
+
+## Windows
+Thumbs.db
+Thumbs.db:encryptable
+ehthumbs.db
+ehthumbs_vista.db
+*.stackdump
+[Dd]esktop.ini
+$RECYCLE.BIN/
+*.lnk
+
+## Linux
+.directory
+.Trash-*
+
+# Other
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/*
+profile_default/
+ipython_config.py
+
+# Local model files
+.kokoro-models/
+.cache/kokoro-models/
+**/kokoro-models/ 
